@@ -1,0 +1,204 @@
+* {
+	margin: 0;
+	padding: 0;
+	font-family: Arial, sans-serif;
+}
+
+body {
+
+}
+
+.menu-topo {
+	display: flex;
+	flex: 1;
+	justify-content: flex-end;
+	line-height: 60px;
+	height: 100px;
+}
+
+.gmaillink, .imagenslink {
+	display: flex;
+    align-items: center;
+    margin-right: 15px;
+    font-size: 15px;
+}
+
+.gmaillink a, .imagenslink a {
+    color: #000000;
+	text-decoration: none;
+}
+
+.gmaillink a:hover, .imagenslink a:hover {
+    color: #000000;
+    text-decoration: underline;
+}
+
+.grade img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30px;
+    height: 30px;
+    margin-top: 35px;
+	margin-right: 15px; 
+}
+
+.userlink {
+ 	width:100px;
+	height: 30px;
+	line-height: 30px;
+	border-radius:5px;
+	background-color:#4487fb;
+	margin-right: 15px;
+	color:#ffffff;
+	text-align:center;
+	align-items: center;
+	font-size: 15px;
+	cursor:pointer;
+	margin-top: 35px;
+}
+
+.userlink a {
+	text-decoration: none;
+	color:#ffffff;
+}
+
+section {
+    display: flex;
+    justify-content: center;
+}
+
+.content {
+	height: 600px;
+	margin-bottom: 10px;
+}
+
+.logo {
+	height: 200px;
+	text-align: center;
+	line-height: 400px;
+	margin-bottom: 30px;
+}
+
+.pesquisa {
+	display: flex;
+	align-items: center;
+	width: 582px;
+	height: 50px;
+	border: 1px solid #dfe1e5;
+	border-radius: 24px;
+
+}
+
+.pesquisa:hover{
+	border-color: rgba(223, 225, 229, 0);
+	box-shadow: 0 1px 6px 0 rgba(32, 33, 36, 0.28)
+}
+
+input[type=text] {
+    width: 447px;
+    padding: 10px;
+    font-size: 16px;
+    background: none;
+    outline: none;
+    border: none;
+}
+
+input:focus::-webkit-input-placeholder {
+    color: transparent;
+}
+
+input:focus:-moz-placeholder {
+    /* Firefox 18- */
+    color: transparent;
+}
+input:focus::-moz-placeholder {
+    /* Firefox 19+ */
+    color: transparent;
+}
+input:focus:-ms-input-placeholder {
+    color: transparent;
+}
+
+.pesquisa img {
+    margin-left: 15px;
+}
+
+.area_botoes {
+	height: 100px;
+	align-items: center;
+	text-align: center;
+	border: none;
+	outline: 0;
+
+}
+
+.botao_pesquisa:hover {
+	box-shadow: 1px 1px 1px 1px #c0c0c0;
+}
+
+.botao_pesquisa {
+	width: 140px;
+	height: 35px;	
+	padding: 0px 16px;
+	margin: 20px 4px;
+	background-color: #F8F9FA;
+	border-style: none;
+	border-radius: 5px;
+}
+
+.radape {
+	height: 80px;
+	background-color: #f2f2f2;
+	font-size: 16px;
+	color: #888888;
+}
+
+.br {
+	padding-left: 30px;
+	border: 1px solid #c0c0c0;
+	line-height: 40px;
+	font-size: 14px;
+}
+
+.footer_bottom {
+    display: flex;
+    justify-content: center;
+    background-color: #F2F2F2;
+}
+
+.footer_bottom ul {
+    display: flex;
+    list-style: none;
+    line-height: 40px;
+}
+.footer_bottom ul a {
+    padding-right: 27px;
+    text-decoration: none;
+    color: #5F6368;
+    font-size: 14px;
+}
+
+.footer_bottom ul a:hover {
+    text-decoration: underline;
+}
+
+.r_left {
+    display: flex;
+    flex: 2;
+    justify-content: flex-start;
+	align-items: center;
+	margin-left: 30px;
+}
+
+.r_right {
+    display: flex;
+    flex: 1;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.r_right a {
+	text-decoration: none;
+	color: #888888;
+}
